@@ -2,3 +2,28 @@ html {
   height: 100%;
   width: 100%;
 }
+.color-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+}
+/* Dark mode overrides */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #eee !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #222 !important;
+}
+
+body.dark-mode footer {
+  background-color: #222 !important;
+  color: #ccc !important;
+}
+
+body.dark-mode .container {
+  background-color: transparent;
+  color: #eee;
+}
